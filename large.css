@@ -1,0 +1,16 @@
+/* Large Screens */
+@media (min-width: 1281px) {
+    body::before{ 
+        content: "Large screens media query (< 980px) fired"; 
+        font-weight: bold; 
+        display: block; 
+        text-align: center; 
+        background: rgba(255,255,0, 0.9);
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        z-index: 99; 
+    }
+}
+

@@ -1,0 +1,64 @@
+/* Media Query Breakpoints for testing   */
+
+/* Mobile */
+@media (max-width: 760px) {
+	body::before{ 
+        content: "Mobile media query (< 760px) fired"; 
+		font-weight: bold; 
+		display: block; 
+		text-align: center; 
+		background: rgba(255,255,0, 0.9); /* Semi-transparent blue */ 
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		right: 0; 
+		z-index: 99; 
+	}
+}
+/* Tablet */
+@media (min-width: 761px) and (max-width: 980px) {
+	body::before{ 
+        content: "Tablet media query (< 980px) fired"; 
+		font-weight: bold; 
+		display: block; 
+		text-align: center; 
+		background: rgba(255,255,0, 0.9);
+		position: absolute; 
+		top: 0; 
+		left: 0; 
+		right: 0; 
+		z-index: 99; 
+	}
+}
+/* Desktop */
+@media (min-width: 981px) and (max-width: 1280px) {
+
+    body::before{ 
+        content: "Desktop media query (< 980px) fired"; 
+        font-weight: bold; 
+        display: block; 
+        text-align: center; 
+        background: rgba(255,255,0, 0.9);
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        z-index: 99; 
+    }
+}
+/* Large Screens */
+@media (min-width: 1281px) {
+    body::before{ 
+        content: "Large screens media query (< 980px) fired"; 
+        font-weight: bold; 
+        display: block; 
+        text-align: center; 
+        background: rgba(255,255,0, 0.9);
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        z-index: 99; 
+    }
+}
+
